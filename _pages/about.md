@@ -46,7 +46,7 @@ In addition to my research endeavors, I have cultivated a solid foundation in pr
 # 📚 Research Projects
 - *2022.04 - 2022.09*, Second author / **Byzantine Protocols with Asymptotically Optimal Communication Complexity**
   - With leveraging hash function, we propose a paradigm to reduce the communication complexity of normal BFT protocols.
-- *2022.07 - 2023.07*, Co-first author / **Cerberus: High-Performance and Secure Multi-BFT Consensus**
+- *2022.07 - 2023.07*, Co-first author / **Cerberus: High-Performance and Secure Multi-BFT Consensus via Dynamic Global Ordering**
   - Propose Cerberus, a high-performance and secure Multi-BFT protocol.
   - Considering varying block rates of instances, we use timestamp to dynamically order consensus results across instances.
 - *2023.04 - 2023.08*, Co-first author / **PHOENIX: Unburdening Multi-BFT Consensus from Expensive Global Ordering**
@@ -55,7 +55,7 @@ In addition to my research endeavors, I have cultivated a solid foundation in pr
 - *2022.09 - now*, Collaborator / **Confidential Blockchain**
   - Aim to enhance the security of blockchain technology by combining TEE with blockchain.
   - It can mitigate the security risks and enhance the overall security of the blockchain network.
-- *2023.09 - now*, Leader / **BFT scaling based on TEE**
+- *2023.09 - now*, Leader / **Multi-BFT scaling based on TEE**
   - Explore the use of TEE, using both software and hardware methods, to bolster the scalability and security of BFT systems.
   - With leveraging TEE, we can elevate fault tolerance, decrease one consensus phrase, and enhance overall system security.
 
