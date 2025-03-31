@@ -83,10 +83,10 @@ Prior joining in UC Davis, I received the Bachelor's degree at [SUSTech](https:/
 - *2024.09 - 2025.01*, Developer / [ResCanvas](https://github.com/ResilientApp/ResCanvas) in [ResilientDB](https://resilientdb.incubator.apache.org/)
     - Developed a decentralized drawing application built on top of ResilientDB.
 
--  *2022.05 - 2022.07*, Leader / 2D Game Development project in [NUS Summer Workshop](https://sws.comp.nus.edu.sg/2022/) -- [Invasion Code Name X](https://github.com/JeffXiesk/Invasion-Code-Name-X)
+-  *2022.05 - 2022.07*, Leader / 2D Game Development project in [NUS Summer Workshop](https://sws.comp.nus.edu.sg/2022/) -- [Invasion Code Name X](https://github.com/ShaokangXie/Invasion-Code-Name-X)
     - Led the development of a small-scale PVP MOBA game using C# and the Unity engine.
 
--  *2022.09 - 2022.12*, Leader / Object Oriented Design and Analysis Course, Final Project -- [Online Course Learning Platform](https://github.com/JeffXiesk/2022F-ooad-project)
+-  *2022.09 - 2022.12*, Leader / Object Oriented Design and Analysis Course, Final Project -- [Online Course Learning Platform](https://github.com/ShaokangXie/2022F-ooad-project)
     - Implemented features such as video storage, live streaming, assignment submission, and permission management.
 
 

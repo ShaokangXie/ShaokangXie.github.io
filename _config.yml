@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Shaokang Xie website"
 description              : "This is my personal website."
-repository               : "JeffXiesk/JeffXiesk.github.io"
+repository               : "ShaokangXie/ShaokangXie.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "JeffXiesk"
+  github           : "ShaokangXie"
   google_plus      :
   keybase          :
   instagram        :
