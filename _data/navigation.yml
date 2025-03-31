@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "Short Bio"
     url: "/#about-me"
 
   - title: "News"
@@ -12,8 +12,8 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Research Projects"
-    url: "/#-research-projects"
+  # - title: "Research Projects"
+  #   url: "/#-research-projects"
 
   - title: "Technical Projects"
     url: "/#-technical-projects"

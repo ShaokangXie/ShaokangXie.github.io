@@ -17,32 +17,48 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Shaokang, currently pursuing a Bachelor's degree in Computer Science and Technology at [SUSTech](https://sustech.edu.cn) in China. I maintain a robust academic record, boasting a GPA of 3.72 out of 4, placing me at the 48th position among 218 fellow students.
 
-Following the guidance of my supervisor [Yinqian Zhang](https://yinqian.org/) in [Teecert Lab](https://teecertlabs.com/team/), my academic journey is underscored by a deep passion for research in the realms of **Blockchain**, **Consensus Algorithms**, and **Distributed Systems**. I have actively contributed to the development of various research papers on these subjects, a testament to my dedication and expertise.
 
-In addition to my research endeavors, I have cultivated a solid foundation in programming languages, including Golang, C++, Java, and Python. My proficiency extends to essential tools like Git and Linux, enabling me to navigate the complex landscape of computer science with ease.
+
+
+# 👤 Short Bio
+
+Hello, I am Shaokang, currently a Ph.D student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/). 
+I am passionate about research in **Blockchain**, **Consensus Algorithms**, and **Distributed Database Systems**.
+
+Prior joining in UC Davis, I received the Bachelor's degree at [SUSTech](https://sustech.edu.cn/en) in China, where I worked under the supervision of Prof.[Yinqian Zhang](https://yinqian.org/) and Prof.[Jianyu Niu](https://jianyu-niu.github.io/) at [Teecert Lab](https://teecertlabs.com/team/).
 
 
 # 🔥 News
-- *2023.08*: &nbsp;🎉🎉 Paper *Byzantine Protocols with Asymptotically Optimal Communication Complexity* is accepted by EAI SecureComm.
+- *March 2025*: &nbsp;🎉🎉 Paper *Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions* is accepted by ICDE'2025.
+- *October 2024*: &nbsp;🎉🎉 Paper *Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering* is accepted by EuroSys'2025.
+- *September 2024*: &nbsp;🎉🎉 Formally become a Ph.D student at UC Davis advised by Prof. Mohammer Sadoghi. 
+- *August 2023*: &nbsp;🎉🎉 Paper *Byzantine Protocols with Asymptotically Optimal Communication Complexity* is accepted by SecureComm'2023.
 
 
 # 📖 Educations
-- *2020.09 - now*, Undergraduate, Computer Science and Technology, Southern University of Science and Technology, Shenzhen, China
-- *2017.09 - 2020.07*, Senior high school, Shimen Middle School, Foshan, China 
+- *September 2024 - Now*, Ph.D Student, Computer Science, University of California, Davis, United States
+- *September 2020 - July 2024*, Undergraduate, Computer Science and Technology, Southern University of Science and Technology, Shenzhen, China
+- *September 2017 - July 2020*, Senior high school, Shimen Middle School, Foshan, China 
 
 
 # 📝 Publications 
 
-- [Byzantine Protocols with Asymptotically Optimal Communication Complexity](https://securecomm.eai-conferences.org/2023/accepted-papers/), Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Chen Feng, **Published on EAI SecureComm 2023**
+1. <sub>*[arXiv Preprint]*</sub> [Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components](https://arxiv.org/abs/2501.01062)
+- **Shaokang Xie**, Dakai Kang, Hanzheng Lyu, Jianyu Niu, Mohammad Sadoghi
 
-- Cerberus: High-Performance and Secure Multi-BFT Consensus via Dynamic Global Ordering, (Co-first Author) **Target on EuroSys 2024 (Due at 10.16)**
+2. <sub>*[EuroSys'2025]*</sub> [Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering (Extended Version)](https://arxiv.org/abs/2409.10954)
+- Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Chen Feng, Yinqian Zhang, Ivan Beschastnikh
 
-- PHOENIX: Unburdening Multi-BFT Consensus from Expensive Global Ordering, (Co-first Author)  **Current on Review Process of InfoComm 2024**
+3. <sub>*[ICDE'2025]*</sub> [Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions (Extended Version)](https://arxiv.org/abs/2501.14732)
+- Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Mohammad Sadoghi, Ivan Beschastnikh, Yinqian Zhang, Chen Feng.
+
+4. <sub>*[SecureComm'2023]*</sub> [Byzantine Protocols with Asymptotically Optimal Communication Complexity](https://link.springer.com/chapter/10.1007/978-3-031-64948-6_13)
+- Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Chen Feng
 
 
 
+<!--
 # 📚 Research Projects
 - *2022.04 - 2022.09*, Second author / **Byzantine Protocols with Asymptotically Optimal Communication Complexity**
   - With leveraging hash function, we propose a paradigm to reduce the communication complexity of normal BFT protocols.
@@ -58,16 +74,20 @@ In addition to my research endeavors, I have cultivated a solid foundation in pr
 - *2023.09 - now*, Leader / **Multi-BFT scaling based on TEE**
   - Explore the use of TEE, using both software and hardware methods, to bolster the scalability and security of BFT systems.
   - With leveraging TEE, we can elevate fault tolerance, decrease one consensus phrase, and enhance overall system security.
-
+-->
 
 # 📚 Technical Projects
+- *2024.09 - Now*, Contributor / [ResilientDB](https://resilientdb.incubator.apache.org/) in [ExpoLab](https://expolab.org/) at [UC Davis](https://ucdavis.edu)
+    - Contributing to ResilientDB by adding new features and enhancing its functionality.
+
+- *2024.09 - 2025.01*, Developer / [ResCanvas](https://github.com/ResilientApp/ResCanvas) in [ResilientDB](https://resilientdb.incubator.apache.org/)
+    - Developed a decentralized drawing application built on top of ResilientDB.
+
 -  *2022.05 - 2022.07*, Leader / 2D Game Development project in [NUS Summer Workshop](https://sws.comp.nus.edu.sg/2022/) -- [Invasion Code Name X](https://github.com/JeffXiesk/Invasion-Code-Name-X)
-  - Independently complete a small PVP MOBA game with C\# and the Unity engine.
-  - Only game project in the summer camp that can realize networked PVP.
+    - Led the development of a small-scale PVP MOBA game using C# and the Unity engine.
 
 -  *2022.09 - 2022.12*, Leader / Object Oriented Design and Analysis Course, Final Project -- [Online Course Learning Platform](https://github.com/JeffXiesk/2022F-ooad-project)
-  - A front-end and back-end separation project built with the Springboot & Vue3.0.
-  - Realizing video storage, live broadcast, assignment submission, authority management etc.
+    - Implemented features such as video storage, live streaming, assignment submission, and permission management.
 
 
 # 🎖 Honors and Awards
@@ -76,3 +96,6 @@ In addition to my research endeavors, I have cultivated a solid foundation in pr
 - *2022.09* Third-class Outstanding Students Scholarship
 - *2022.12* Third place in Xili Lake Financial Technology Challenge,  Blockchain track
 
+
+---
+Last Updated: April 2025.
