@@ -68,6 +68,11 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
 - Artifact Evaluation Committee for [OSDI'2025](https://www.usenix.org/conference/osdi25/call-for-artifacts)
 - Artifact Evaluation Committee for [ATC'2025](https://www.usenix.org/conference/atc25/call-for-artifacts)
 
+# 🖼️ Poster
+<p align="center">
+  <img src="images/Fides-poster.png" width="70%">
+</p>
+
 
 # 🚀 Technical Projects
 - *September 2024 - Present*, Maintainer / [ResilientDB](https://resilientdb.incubator.apache.org/) in [ExpoLab](https://expolab.org/) at [UC Davis](https://ucdavis.edu)
