@@ -17,33 +17,31 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-
-
-
-
 # 👤 Short Bio
 
-Hello! I am Shaokang, a Ph.D. student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/). 
-My research focuses on **Blockchain Systems**, **Consensus Algorithms**, and **Distributed Database Systems**.
+Hello! I am Shaokang, a second-year Ph.D. student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/). 
+My research focuses on **blockchain systems**, **consensus algorithms**, and **distributed database systems**, with a recent emphasis on scaling high-performance **Byzantine Fault Tolerant (BFT)** consensus protocols through **hardware acceleration** techniques such as TEEs and RDMA.
 
-Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech](https://sustech.edu.cn/en) in China, where I worked under the supervision of Prof. [Yinqian Zhang](https://yinqian.org/) and Prof.[Jianyu Niu](https://jianyu-niu.github.io/) in the [Teecert Lab](https://teecertlabs.com/team/).
+Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech](https://sustech.edu.cn/en) in China, where I worked under the supervision of Prof. [Yinqian Zhang](https://yinqian.org/) and Prof. [Jianyu Niu](https://jianyu-niu.github.io/) in the [Teecert Lab](https://teecertlabs.com/team/).
 
 
-# 🔥 News
+<!-- # 🔥 News
 - *November 2025*: &nbsp;🎉 Paper *Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus* arXiv preprint is now available
 - *March 2025*: &nbsp;🎉 Paper *Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions* is accepted by ICDE'2025
 - *January 2025*: &nbsp;🎉 Paper *Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components* arXiv preprint is now available
 - *October 2024*: &nbsp;🎉 Paper *Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering* is accepted by EuroSys'2025
 - *September 2024*: &nbsp;🎉 Formally become a Ph.D. student at UC Davis advised by Prof. Mohammad Sadoghi
-- *August 2023*: &nbsp;🎉 Paper *Byzantine Protocols with Asymptotically Optimal Communication Complexity* is accepted by SecureComm'2023
+- *August 2023*: &nbsp;🎉 Paper *Byzantine Protocols with Asymptotically Optimal Communication Complexity* is accepted by SecureComm'2023 -->
 
 
+<span class='anchor' id='education'></span>
 # 📖 Education
 - *September 2024 - Present*, Ph.D. Student, Computer Science, University of California, Davis, United States
 - *September 2020 - July 2024*, Undergraduate, Computer Science and Technology, Southern University of Science and Technology, Shenzhen, China
 
 
-# 📝 Publications 
+<span class='anchor' id='publications'></span>
+# 📝 Publications
 1. <sub>**[arXiv Preprint, Under Review]**</sub> [Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components](https://arxiv.org/abs/2501.01062)
 - **Shaokang Xie**, Dakai Kang, Hanzheng Lyu, Jianyu Niu, Mohammad Sadoghi
 
@@ -60,23 +58,21 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
 - Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Chen Feng
 
 
+<span class='anchor' id='teaching'></span>
 # 📘 Teaching
-- Teaching Assistant for [ECS 165A: Database Systems](https://expolab.org/ecs165a-winter2025.html)
+- Teaching Assistant for [ECS 165A: Database Systems](https://expolab.org/ecs165a-winter2025.html), 2025 Winter
 
 
-# 📄 Review
+<span class='anchor' id='peer-review-service'></span>
+# 📄 Peer Review Service
 - Artifact Evaluation Committee for [OSDI'2025](https://www.usenix.org/conference/osdi25/call-for-artifacts)
 - Artifact Evaluation Committee for [ATC'2025](https://www.usenix.org/conference/atc25/call-for-artifacts)
 
-# 🖼️ Poster
-<p align="center">
-  <img src="images/Fides-poster.png" width="70%">
-</p>
 
-
-# 🚀 Technical Projects
+<span class='anchor' id='open-source-project'></span>
+# 🚀 Open-Source Project
 - *September 2024 - Present*, Maintainer / [ResilientDB](https://resilientdb.incubator.apache.org/) in [ExpoLab](https://expolab.org/) at [UC Davis](https://ucdavis.edu)
-    - Contributing to ResilientDB by adding new features and enhancing its functionality.
+    - I conduct research on our resilient data platform and help maintain the system.
 
 - *September 2024 - Present*, Developer / [ResCanvas](https://github.com/ResilientApp/ResCanvas) in [ResilientDB](https://resilientdb.incubator.apache.org/)
     - Developed a decentralized drawing application built on top of ResilientDB.
@@ -88,14 +84,21 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
     - Implemented features such as video storage, live streaming, assignment submission, and permission management.
 
 
+<span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
-- *September 2020:* Second-class Outstanding Freshman Scholarship, SUSTech
-- *September 2021:* First-class Outstanding Students Scholarship, SUSTech
-- *September 2022:* Third-class Outstanding Students Scholarship, SUSTech
-- *September 2024:* Fall Quarter Fellowship by Computer Science Department, UC Davis
-- *June 2025:* Summer Quarter Fellowship by Computer Science Department, UC Davis
-- *September 2025:* Fall Quarter Fellowship by Computer Science Department, UC Davis
+- Second-class Outstanding Freshman Scholarship, SUSTech (2021)
+- First-class Outstanding Students Scholarship, SUSTech (2022)
+- Third-class Outstanding Students Scholarship, SUSTech (2023)
+- GGCS Fall Quarter Fellowship Award, UC Davis (2024, 2025)
+- GGCS Summer Ph.D. Fellowship Award, UC Davis (2025)
 
+
+
+<span class='anchor' id='poster'></span>
+# 🖼️ Poster
+<p align="center">
+  <img src="images/Fides-poster.png" width="70%">
+</p>
 
 
 ---
