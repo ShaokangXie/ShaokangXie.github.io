@@ -19,7 +19,8 @@ redirect_from:
 
 # 👤 Short Bio
 
-Hello! I am Shaokang, a second-year Ph.D. student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/). 
+Hello! I am Shaokang, a second-year Ph.D. student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/).
+I also serve as a Podling Project Management Committee (PPMC) member for the [Apache ReslientDB](https://resilientdb.apache.org/) open-source project. 
 My research focuses on **blockchain systems**, **consensus algorithms**, and **distributed database systems**, with a recent emphasis on scaling high-performance **Byzantine Fault Tolerant (BFT)** consensus protocols through **hardware acceleration** techniques such as TEEs and RDMA.
 
 Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech](https://sustech.edu.cn/en) in China, where I worked under the supervision of Prof. [Yinqian Zhang](https://yinqian.org/) and Prof. [Jianyu Niu](https://jianyu-niu.github.io/) in the [Teecert Lab](https://teecertlabs.com/team/).
