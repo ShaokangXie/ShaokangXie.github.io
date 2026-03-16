@@ -45,7 +45,7 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
 1. <sub>**[arXiv Preprint, Under Review]**</sub> [Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components](https://arxiv.org/abs/2501.01062)
 - **Shaokang Xie**, Dakai Kang, Hanzheng Lyu, Jianyu Niu, Mohammad Sadoghi
 
-2. <sub>**[arXiv Preprint, Under Review]**</sub> [Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus](https://arxiv.org/abs/2511.05843)
+2. <sub>**[ICDE'2026]**</sub> [Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus](https://arxiv.org/abs/2511.05843)
 - Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Mohammad Sadoghi, Yinqian Zhang, Cong Wang, Ivan Beschastnikh, Chen Feng
 
 3. <sub>**[EuroSys'2025]**</sub> [Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering](https://dl.acm.org/doi/10.1145/3689031.3696102)
@@ -60,7 +60,7 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
 
 <span class='anchor' id='teaching'></span>
 # 📘 Teaching
-- Teaching Assistant for [ECS 165A: Database Systems](https://expolab.org/ecs165a-winter2025.html), 2025 Winter
+- Teaching Assistant for [ECS 165A: Database Systems](https://expolab.org/ecs165a-winter2025.html), Winter 2025, 2026
 
 
 <span class='anchor' id='peer-review-service'></span>
@@ -71,7 +71,7 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
 
 <span class='anchor' id='open-source-project'></span>
 # 🚀 Open-Source Project
-- *September 2024 - Present*, Maintainer / [ResilientDB](https://resilientdb.incubator.apache.org/) in [ExpoLab](https://expolab.org/) at [UC Davis](https://ucdavis.edu)
+- *September 2024 - Present*, Podling Project Management Committee / [ResilientDB](https://resilientdb.incubator.apache.org/) in [ExpoLab](https://expolab.org/) at [UC Davis](https://ucdavis.edu)
     - I conduct research on our resilient data platform and help maintain the system.
 
 - *September 2024 - Present*, Developer / [ResCanvas](https://github.com/ResilientApp/ResCanvas) in [ResilientDB](https://resilientdb.incubator.apache.org/)
@@ -102,4 +102,4 @@ Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech]
 
 
 ---
-_Last updated: November 2025_
+_Last updated: March 2026_
