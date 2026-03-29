@@ -1,106 +1,32 @@
 ---
+layout: about
+title: about
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: Ph.D. Student in Computer Science at <a href='https://ucdavis.edu'>UC Davis</a>
+
+profile:
+  align: right
+  image: avatar.jpg
+  image_circular: false
+  more_info: >
+    <p>University of California, Davis</p>
+    <p>Davis, CA, US</p>
+    <p>skxie@ucdavis.edu</p>
+
+selected_papers: true
+social: true
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
-# 👤 Short Bio
-
 Hello! I am Shaokang, a second-year Ph.D. student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/).
-I also serve as a Podling Project Management Committee (PPMC) member for the [Apache ReslientDB](https://resilientdb.apache.org/) open-source project. 
+I also serve as a Podling Project Management Committee (PPMC) member for the [Apache ResilientDB](https://resilientdb.apache.org/) open-source project.
 My research focuses on **blockchain systems**, **consensus algorithms**, and **distributed database systems**, with a recent emphasis on scaling high-performance **Byzantine Fault Tolerant (BFT)** consensus protocols through **hardware acceleration** techniques such as TEEs and RDMA.
 
 Prior to joining UC Davis, I received my B.E. in Computer Science from [SUSTech](https://sustech.edu.cn/en) in China, where I worked under the supervision of Prof. [Yinqian Zhang](https://yinqian.org/) and Prof. [Jianyu Niu](https://jianyu-niu.github.io/) in the [Teecert Lab](https://teecertlabs.com/team/).
-
-
-<!-- # 🔥 News
-- *November 2025*: &nbsp;🎉 Paper *Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus* arXiv preprint is now available
-- *March 2025*: &nbsp;🎉 Paper *Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions* is accepted by ICDE'2025
-- *January 2025*: &nbsp;🎉 Paper *Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components* arXiv preprint is now available
-- *October 2024*: &nbsp;🎉 Paper *Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering* is accepted by EuroSys'2025
-- *September 2024*: &nbsp;🎉 Formally become a Ph.D. student at UC Davis advised by Prof. Mohammad Sadoghi
-- *August 2023*: &nbsp;🎉 Paper *Byzantine Protocols with Asymptotically Optimal Communication Complexity* is accepted by SecureComm'2023 -->
-
-
-<span class='anchor' id='education'></span>
-# 📖 Education
-- *September 2024 - Present*, Ph.D. Student, Computer Science, University of California, Davis, United States
-- *September 2020 - July 2024*, Undergraduate, Computer Science and Technology, Southern University of Science and Technology, Shenzhen, China
-
-
-<span class='anchor' id='publications'></span>
-# 📝 Publications
-1. <sub>**[arXiv Preprint, Under Review]**</sub> [Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components](https://arxiv.org/abs/2501.01062)
-- **Shaokang Xie**, Dakai Kang, Hanzheng Lyu, Jianyu Niu, Mohammad Sadoghi
-
-2. <sub>**[ICDE'2026]**</sub> [Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus](https://arxiv.org/abs/2511.05843)
-- Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Mohammad Sadoghi, Yinqian Zhang, Cong Wang, Ivan Beschastnikh, Chen Feng
-
-3. <sub>**[EuroSys'2025]**</sub> [Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering](https://dl.acm.org/doi/10.1145/3689031.3696102)
-- **Shaokang Xie**<sup>\*</sup>, Hanzheng Lyu<sup>\*</sup>, Jianyu Niu, Chen Feng, Yinqian Zhang, Ivan Beschastnikh&nbsp;&nbsp;<sub><sup>*</sup> Equal contribution</sub>
-
-4. <sub>**[ICDE'2025]**</sub> [Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions](https://ieeexplore.ieee.org/document/11113019)
-- **Shaokang Xie**<sup>\*</sup>, Hanzheng Lyu<sup>\*</sup>, Jianyu Niu, Mohammad Sadoghi, Ivan Beschastnikh, Yinqian Zhang, Chen Feng&nbsp;&nbsp;<sub><sup>*</sup> Equal contribution</sub>
-
-5. <sub>**[SecureComm'2023]**</sub> [Byzantine Protocols with Asymptotically Optimal Communication Complexity](https://link.springer.com/chapter/10.1007/978-3-031-64948-6_13)
-- Hanzheng Lyu, **Shaokang Xie**, Jianyu Niu, Chen Feng
-
-
-<span class='anchor' id='teaching'></span>
-# 📘 Teaching
-- Teaching Assistant for [ECS 165A: Database Systems](https://expolab.org/ecs165a-winter2025.html), Winter 2025, 2026
-
-
-<span class='anchor' id='peer-review-service'></span>
-# 📄 Peer Review Service
-- Artifact Evaluation Committee for [OSDI'2025](https://www.usenix.org/conference/osdi25/call-for-artifacts)
-- Artifact Evaluation Committee for [ATC'2025](https://www.usenix.org/conference/atc25/call-for-artifacts)
-
-
-<span class='anchor' id='open-source-project'></span>
-# 🚀 Open-Source Project
-- *September 2024 - Present*, Podling Project Management Committee / [ResilientDB](https://resilientdb.incubator.apache.org/) in [ExpoLab](https://expolab.org/) at [UC Davis](https://ucdavis.edu)
-    - I conduct research on our resilient data platform and help maintain the system.
-
-- *September 2024 - Present*, Developer / [ResCanvas](https://github.com/ResilientApp/ResCanvas) in [ResilientDB](https://resilientdb.incubator.apache.org/)
-    - Developed a decentralized drawing application built on top of ResilientDB.
-
--  *May 2022 - July 2022*, Leader / 2D Game Development project in [NUS Summer Workshop](https://sws.comp.nus.edu.sg/2022/) -- [Invasion Code Name X](https://github.com/ShaokangXie/Invasion-Code-Name-X)
-    - Led the development of a small-scale PVP MOBA game using C# and the Unity engine.
-
--  *September 2022 - December 2022*, Leader / Object Oriented Design and Analysis Course, Final Project -- [Online Course Learning Platform](https://github.com/ShaokangXie/2022F-ooad-project)
-    - Implemented features such as video storage, live streaming, assignment submission, and permission management.
-
-
-<span class='anchor' id='honors-and-awards'></span>
-# 🎖 Honors and Awards
-- Second-class Outstanding Freshman Scholarship, SUSTech (2021)
-- First-class Outstanding Students Scholarship, SUSTech (2022)
-- Third-class Outstanding Students Scholarship, SUSTech (2023)
-- GGCS Fall Quarter Fellowship Award, UC Davis (2024, 2025)
-- GGCS Summer Ph.D. Fellowship Award, UC Davis (2025)
-
-
-
-<span class='anchor' id='poster'></span>
-# 🖼️ Poster
-<p align="center">
-  <img src="images/Fides-poster.png" width="70%">
-</p>
-
-
----
-_Last updated: March 2026_

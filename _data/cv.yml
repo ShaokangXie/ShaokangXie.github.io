@@ -1,0 +1,71 @@
+cv:
+  name: Shaokang Xie
+  label: Ph.D. Student
+  email: skxie@ucdavis.edu
+  location: Davis, CA, US
+  image: ""
+  summary: Ph.D. Student in Computer Science at UC Davis, advised by Prof. Mohammad Sadoghi. Research focuses on blockchain systems, consensus algorithms, and distributed database systems.
+
+  social_networks:
+    - network: GitHub
+      username: ShaokangXie
+    - network: LinkedIn
+      username: Shaokang-Xie
+
+  sections:
+    Education:
+      - institution: University of California, Davis
+        location: Davis, CA, US
+        url: https://ucdavis.edu
+        area: Computer Science
+        studyType: Ph.D. Student
+        start_date: 2024-09-01
+        end_date: ""
+        score: ""
+        highlights:
+          - "Advised by Prof. Mohammad Sadoghi in the ExpoLab"
+
+      - institution: Southern University of Science and Technology (SUSTech)
+        location: Shenzhen, China
+        url: https://sustech.edu.cn/en
+        area: Computer Science and Technology
+        studyType: B.E.
+        start_date: 2020-09-01
+        end_date: 2024-07-01
+        highlights:
+          - "Supervised by Prof. Yinqian Zhang and Prof. Jianyu Niu in the Teecert Lab"
+
+    Experience:
+      - company: ExpoLab, UC Davis
+        position: Graduate Research Assistant
+        location: Davis, CA, US
+        start_date: 2024-09-01
+        end_date: ""
+        summary: "Conducting research on blockchain systems, consensus algorithms, and distributed database systems."
+        highlights:
+          - "Podling Project Management Committee (PPMC) member for Apache ResilientDB"
+
+    Awards:
+      - title: GGCS Fall Quarter Fellowship Award
+        date: 2025
+        awarder: UC Davis
+
+      - title: GGCS Summer Ph.D. Fellowship Award
+        date: 2025
+        awarder: UC Davis
+
+      - title: GGCS Fall Quarter Fellowship Award
+        date: 2024
+        awarder: UC Davis
+
+      - title: Third-class Outstanding Students Scholarship
+        date: 2023
+        awarder: Southern University of Science and Technology
+
+      - title: First-class Outstanding Students Scholarship
+        date: 2022
+        awarder: Southern University of Science and Technology
+
+      - title: Second-class Outstanding Freshman Scholarship
+        date: 2021
+        awarder: Southern University of Science and Technology
