@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ShaokangXie.github.io/sitemap.xml
