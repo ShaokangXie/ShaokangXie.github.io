@@ -9,9 +9,11 @@ nav_order: 6
 
 ## Teaching Assistant
 
-- **ECS 165A: Database Systems** — [Course Page](https://expolab.org/ecs165a-winter2025.html)
-  - Winter 2025, Winter 2026
-  - University of California, Davis
+University of California, Davis
+
+- **ECS 32A: Introduction to Programming** — Fall 2026 (upcoming)
+- **ECS 165A: Database Systems** — Winter 2026 · [Course website](https://expolab.org/ecs165a-winter2026.html)
+- **ECS 165A: Database Systems** — Winter 2025 · [Course website](https://expolab.org/ecs165a-winter2025.html)
 
 ## Peer Review Service
 
