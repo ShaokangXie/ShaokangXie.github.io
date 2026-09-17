@@ -27,7 +27,7 @@ latest_posts:
 
 Hello! I am Shaokang, a Ph.D. candidate in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/).
 
-My research focuses on **scalable Byzantine fault-tolerant (BFT) systems**, spanning consensus protocols, blockchain systems, and distributed databases. I am particularly interested in hardware-assisted designs using trusted execution environments (TEEs) and RDMA.
+My research focuses on **scalable Byzantine fault-tolerant (BFT) systems**, spanning consensus protocols, blockchain systems, and distributed databases. I am particularly interested in hardware-assisted designs using trusted execution environments (TEEs) and RDMA. I have also recently been exploring how large language models (LLMs) can assist in the design and operation of computer systems.
 
 I serve as a Podling Project Management Committee (PPMC) member for the [Apache ResilientDB](https://resilientdb.apache.org/) open-source project and am leading its upcoming v1.13.0 release, scheduled for September 30, 2026.
 
