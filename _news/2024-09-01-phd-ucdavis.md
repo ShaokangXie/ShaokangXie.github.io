@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Formally become a Ph.D. student at **UC Davis** advised by Prof. Mohammad Sadoghi.
+I joined **UC Davis** as a Ph.D. student, advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper *Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions* is accepted by **IEEE ICDE'2025**.
+Our paper [*Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions*](https://ieeexplore.ieee.org/document/11113019) has been accepted at **IEEE ICDE 2025**.

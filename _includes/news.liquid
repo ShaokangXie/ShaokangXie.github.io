@@ -4,7 +4,7 @@
   {% if include.limit and page.announcements.limit %}{% assign news_limit = page.announcements.limit %}{% endif %}
   {% for item in news limit: news_limit %}
     <li>
-      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time>
+      <time datetime="{% if item.date_precision == 'month' %}{{ item.date | date: '%Y-%m' }}{% else %}{{ item.date | date: '%Y-%m-%d' }}{% endif %}">{{ item.date | date: '%b %Y' }}</time>
       <div>{% if item.inline %}{{ item.content }}{% else %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}</div>
     </li>
   {% endfor %}

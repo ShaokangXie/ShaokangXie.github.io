@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper *Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components* arXiv preprint is now available.
+Our preprint [*Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components*](https://arxiv.org/abs/2501.01062) is now available on arXiv.

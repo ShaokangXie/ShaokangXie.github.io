@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper *Byzantine Protocols with Asymptotically Optimal Communication Complexity* is accepted by **EAI SecureComm'2023**.
+Our paper [*Byzantine Protocols with Asymptotically Optimal Communication Complexity*](https://link.springer.com/chapter/10.1007/978-3-031-64948-6_13) has been accepted at **EAI SecureComm 2023**.

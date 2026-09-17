@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Computer Science at <a href='https://ucdavis.edu'>UC Davis</a>
+subtitle: Ph.D. Candidate in Computer Science at <a href='https://ucdavis.edu'>UC Davis</a>
 
 profile:
   align: right
@@ -19,13 +19,13 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 6
 
 latest_posts:
   enabled: false
 ---
 
-Hello! I am Shaokang, a Ph.D. student in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/).
+Hello! I am Shaokang, a Ph.D. candidate in Computer Science at [UC Davis](https://ucdavis.edu), advised by Prof. [Mohammad Sadoghi](https://faculty.engineering.ucdavis.edu/sadoghi/) in the [ExpoLab](https://expolab.org/).
 
 My research focuses on **scalable Byzantine fault-tolerant (BFT) systems**, spanning consensus protocols, blockchain systems, and distributed databases. I am particularly interested in hardware-assisted designs using trusted execution environments (TEEs) and RDMA.
 
