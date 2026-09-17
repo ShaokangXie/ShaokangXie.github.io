@@ -1,20 +1,13 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Publications in reversed chronological order.
+title: Publications
+description: Papers and presentation materials, by year.
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
+<p class="section-note">* Equal contribution</p>
 <div class="publications">
-
 {% bibliography %}
-
 </div>

@@ -1,56 +1,45 @@
 <!doctype html>
-<html lang="{{ site.lang }}">
-  <!-- Head -->
+<!-- Adapted from Minimal Light (CC0): https://github.com/yaoyao-liu/minimal-light -->
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
-    {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
-    {% endif %}
-    {% include head.liquid %}
+    {% include metadata.liquid %}
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+    {% feed_meta %}
   </head>
-
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
-    {% include header.liquid %}
-
-    <!-- Content -->
-    <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="wrapper">
+      <header class="profile-header">
+        <a class="portrait-link" href="{{ '/' | relative_url }}" aria-label="Shaokang Xie — home">
+          <img class="portrait" src="{{ '/assets/img/avatar.jpg' | relative_url }}" alt="Shaokang Xie" width="180" height="180">
+        </a>
+        <a class="profile-name" href="{{ '/' | relative_url }}">Shaokang Xie</a>
+        <p class="profile-role">Ph.D. Student · Computer Science<br><a href="https://www.ucdavis.edu/">University of California, Davis</a></p>
+        <a class="profile-email" href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a>
+        <div class="profile-links" aria-label="Academic profiles">
+          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+          <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+          <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/{{ site.data.socials.research_gate_profile }}/">ResearchGate</a>
+        </div>
+        <nav class="site-nav" aria-label="Main navigation">
+          {% assign nav_pages = site.pages | where: 'nav', true | sort: 'nav_order' %}
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>About</a>
+          {% for nav_page in nav_pages %}
+            <a href="{{ nav_page.url | relative_url }}" {% if page.url == nav_page.url %}aria-current="page"{% endif %}>{{ nav_page.nav_title | default: nav_page.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+      <main id="main-content" class="main-content">
         {{ content }}
-      {% endif %}
+        {% include visitor-map.liquid %}
+        <footer class="site-footer">
+          <span>© {{ site.time | date: '%Y' }} Shaokang Xie</span>
+          <span>Updated {{ site.time | date: '%b %Y' }} · <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a></span>
+        </footer>
+      </main>
     </div>
-
-    <!-- Footer -->
-    {% include footer.liquid %}
-
-    <!-- JavaScripts -->
-    {% include scripts.liquid %}
   </body>
 </html>

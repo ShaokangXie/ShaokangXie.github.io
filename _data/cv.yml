@@ -44,6 +44,17 @@ cv:
         summary: "Conducting research on blockchain systems, consensus algorithms, and distributed database systems."
         highlights:
           - "Podling Project Management Committee (PPMC) member for Apache ResilientDB"
+          - "Release lead for Apache ResilientDB v1.13.0, scheduled for September 30, 2026"
+
+    Presentations:
+      - name: "Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components"
+        location: Boston, MA, US
+        date: 2026
+        summary: "Presented at VLDB 2026"
+
+      - name: "Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus"
+        date: 2026
+        summary: "Presented at IEEE ICDE 2026"
 
     Awards:
       - title: GGCS Fall Quarter Fellowship Award

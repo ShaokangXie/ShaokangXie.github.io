@@ -1,0 +1,5 @@
+{% if resource contains '://' %}
+<a href="{{ resource }}">{{ include.label }}</a>
+{% else %}
+<a href="{{ resource | prepend: '/assets/pdf/' | relative_url }}">{{ include.label }}</a>
+{% endif %}

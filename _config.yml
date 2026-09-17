@@ -39,12 +39,12 @@ repo_trophies:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
+navbar_fixed: false
+footer_fixed: false
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -162,6 +162,7 @@ exclude:
   - readme_preview/
   - vendor
   - docs
+  - _scripts/check_site.py
   - google_scholar_crawler
 keep_files:
   - CNAME
@@ -343,14 +344,14 @@ enable_openpanel_analytics: false
 enable_google_verification: false
 enable_bing_verification: false
 enable_cookie_consent: false
-enable_masonry: true
+enable_masonry: false
 enable_math: true
 enable_tooltips: false
-enable_darkmode: true
+enable_darkmode: false
 enable_navbar_social: false
 enable_project_categories: true
 enable_medium_zoom: true
-enable_progressbar: true
+enable_progressbar: false
 enable_video_embedding: false
 
 # -----------------------------------------------------------------------------
