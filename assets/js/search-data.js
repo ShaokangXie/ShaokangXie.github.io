@@ -10,15 +10,15 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "Publications in reversed chronological order.",
+          title: "Publications",
+          description: "Papers and presentation materials, by year.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "Open-source projects and software I have contributed to.",
+          title: "Projects",
+          description: "Open-source systems and selected software projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Courses I have been a teaching assistant for.",
+        },{id: "nav-teaching-amp-service",
+          title: "Teaching &amp; Service",
+          description: "Teaching experience and academic service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -52,14 +52,23 @@ ninja.data = [{
           section: "News",},{id: "news-paper-orthrus-accelerating-multi-bft-consensus-through-concurrent-partial-ordering-of-transactions-is-accepted-by-ieee-icde-2025",
           title: 'Paper Orthrus: Accelerating Multi-BFT Consensus through Concurrent Partial Ordering of Transactions is accepted...',
           description: "",
-          section: "News",},{id: "news-paper-hydra-breaking-the-global-ordering-barrier-in-multi-bft-consensus-is-accepted-by-ieee-icde-2026",
-          title: 'Paper Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus is accepted by...',
+          section: "News",},{id: "news-paper-hydra-breaking-the-global-ordering-barrier-in-multi-bft-consensus-has-been-accepted-at-ieee-icde-2026",
+          title: 'Paper Hydra: Breaking the Global Ordering Barrier in Multi-BFT Consensus has been accepted...',
           description: "",
           section: "News",},{id: "news-our-preprint-cassandra-consensus-with-partial-progress-via-robust-partitionable-view-synchronization-is-now-available-on-arxiv",
           title: 'Our preprint Cassandra: Consensus with Partial Progress via Robust Partitionable View Synchronization is...',
           description: "",
-          section: "News",},{id: "news-paper-fides-scalable-censorship-resistant-dag-consensus-via-trusted-components-has-been-accepted-by-vldb-2026-i-will-attend-and-present-the-paper-at-the-52nd-international-conference-on-very-large-data-bases-in-boston-ma-august-31-september-4-2026",
-          title: 'Paper Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components has been accepted by...',
+          section: "News",},{id: "news-paper-fides-scalable-censorship-resistant-dag-consensus-via-trusted-components-has-been-accepted-at-vldb-2026",
+          title: 'Paper Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components has been accepted at...',
+          description: "",
+          section: "News",},{id: "news-our-paper-cassandra-consensus-with-partial-progress-via-robust-partitionable-view-synchronization-has-been-accepted-at-vldb-2027",
+          title: 'Our paper Cassandra: Consensus with Partial Progress via Robust Partitionable View Synchronization has...',
+          description: "",
+          section: "News",},{id: "news-presentation-materials-are-now-available-for-fides-at-vldb-2026-poster-slides-and-hydra-at-ieee-icde-2026-poster-slides",
+          title: 'Presentation materials are now available for Fides at VLDB 2026 (poster, slides) and...',
+          description: "",
+          section: "News",},{id: "news-i-am-leading-the-upcoming-apache-resilientdb-v1-13-0-release-scheduled-for-september-30-2026",
+          title: 'I am leading the upcoming Apache ResilientDB v1.13.0 release, scheduled for September 30,...',
           description: "",
           section: "News",},{id: "projects-invasion-code-name-x",
           title: 'Invasion Code Name X',
@@ -78,7 +87,7 @@ ninja.data = [{
               window.location.href = "/projects/rescanvas/";
             },},{id: "projects-apache-resilientdb",
           title: 'Apache ResilientDB',
-          description: "Podling Project Management Committee (PPMC) member. Conducting research on a resilient data platform and helping maintain the system.",
+          description: "PPMC member and release lead for the upcoming v1.13.0 release.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/resilientdb/";
             },},{
@@ -123,30 +132,4 @@ ninja.data = [{
         handler: () => {
           window.open("/feed.xml", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
