@@ -80,14 +80,9 @@ ninja.data = [{
           description: "An online learning platform with video storage, live streaming, assignment submission, and permission management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/online-course-platform/";
-            },},{id: "projects-rescanvas",
-          title: 'ResCanvas',
-          description: "A decentralized drawing application built on top of ResilientDB.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/rescanvas/";
             },},{id: "projects-apache-resilientdb",
           title: 'Apache ResilientDB',
-          description: "PPMC member and release lead for the upcoming v1.13.0 release.",
+          description: "A Byzantine fault-tolerant distributed ledger. PPMC member and release lead for v1.13.0, scheduled for September 30, 2026.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/resilientdb/";
             },},{
