@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [*Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components*](https://arxiv.org/abs/2501.01062) has been accepted at **VLDB 2026**.
+Our paper [*Fides: Secure and Scalable Asynchronous DAG Consensus via Trusted Components*](https://arxiv.org/abs/2501.01062) has been accepted at **VLDB 2026**.

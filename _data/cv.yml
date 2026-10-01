@@ -48,7 +48,7 @@ cv:
           - "Release lead for Apache ResilientDB v1.13.0, scheduled for September 30, 2026"
 
     Presentations:
-      - name: "Fides: Scalable Censorship-Resistant DAG Consensus via Trusted Components"
+      - name: "Fides: Secure and Scalable Asynchronous DAG Consensus via Trusted Components"
         location: Boston, MA, US
         date: 2026
         summary: "Presented at VLDB 2026"
